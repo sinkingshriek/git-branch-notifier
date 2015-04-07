@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "activationCommands": {
-    "atom-workspace": "git-branch-notifier:toggle"
+    "atom-workspace": "git-branch-notifier:start"
   },
   "repository": "https://github.com/atom/git-branch-notifier",
   "license": "MIT",
