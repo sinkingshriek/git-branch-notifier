@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle git-branch-notifier'
+      'command': 'git-branch-notifier:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'git-branch-notifier'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'git-branch-notifier:toggle'
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "git-branch-notifier",
+  "main": "./lib/git-branch-notifier",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "git-branch-notifier:toggle"
+  },
+  "repository": "https://github.com/atom/git-branch-notifier",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
